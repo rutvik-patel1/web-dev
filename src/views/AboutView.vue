@@ -4,15 +4,15 @@
       <input
         v-model="inputText"
         @keyup.enter="addItem"
-        placeholder="Enter text"
+        placeholder="Enter TODO"
       />
-      <button @click="addItem">Submit</button>
+      <button @click="addItem">Add Item</button>
     </div>
 
     <ul class="item-list">
       <li v-for="(item, index) in itemList" :key="index">
         <span>{{ item.text }}</span>
-        <button @click="editItem(item.id)">Edit</button>
+        <button @click="editItem(item.id)">Edit</button> 
         <button @click="deleteItem(item.id)">Delete</button>
       </li>
     </ul>

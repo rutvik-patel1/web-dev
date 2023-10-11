@@ -2,10 +2,8 @@
   <div>
     <h1>{{ msg }}</h1>
     <ul>
-      <li><router-link to="/indexed-db">1. IndexedDB</router-link></li>
-      <li><router-link to="/indexed-db-file">2. File/ Blob Store</router-link></li>
-      <li><router-link to="/">3.</router-link></li>
-      <li><router-link to="/">4.</router-link></li>
+      <li><router-link to="/indexed-db">IndexedDB</router-link></li>
+      <li><router-link to="/indexed-db-file"> File/ Blob Store</router-link></li>
     </ul>
   </div>
 </template>

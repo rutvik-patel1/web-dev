@@ -1,5 +1,3 @@
-<!-- YourVueComponent.vue -->
-
 <template>
   <div>
     <input type="file" @change="handleFileChange" />
@@ -44,7 +42,6 @@ export default {
         size: selectedFile.size,
       };
 
-      // Store a reference in local storage
       this.storeFileReferenceInLocalStorage(selectedFile.name);
     },
 
@@ -126,7 +123,3 @@ export default {
   },
 };
 </script>
-
-<style>
-/* Your component styles here */
-</style>
